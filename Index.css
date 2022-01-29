@@ -99,36 +99,54 @@ header>.slogan>.btn>#more{
 
 }
 .cards{
-    background-color: #252B42;
+    background-color: grey;
     width: 87.1%;
-    height: 150px;
+    height: 125px;
     padding-left: 150px;
     
 }
 .cards>.one{
-    border: 2px solid white;
     width: 250px;
-    height: 100px;
+    height: 120px;
     display: block;
     float: left;
     margin-top: -55px; 
-    text-align: center; 
     background-color: white;
     margin-left: 40px;
     color: #252B42;
     font-weight: bold;
+    box-shadow: 0 1px 1px 0;
     
 }
 .cards>.two{
     width: 250px;
-    height: 100px;
+    height: 120px;
     display: block;
     float: left;
     margin-top: -55px; 
-    text-align: center; 
     background-color: #23A6F0;
     margin-left: 40px;
     color: white;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
+.section-2{
+
+}
+.section-2>.menu{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-left: 130px;
+    text-align: center;
+}
+.section-2>.menu>h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.section-2>.menu>p{
+    text-align: center;
+    font-size: 11px;
+}
+
