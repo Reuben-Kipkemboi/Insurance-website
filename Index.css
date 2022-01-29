@@ -98,3 +98,8 @@ header>.slogan>.btn>#more{
     margin-left: 5px;
 
 }
+.cards{
+    background-color: #252B42;
+    opacity: 0.2;
+    width: 100%;
+}
