@@ -89,12 +89,11 @@ header>.slogan>.btn>#quote{
     padding: 10px;
 }
 header>.slogan>.btn>#more{
-    background-color: #252B42;
     color: white;
     padding: 10px 15px;
     font-weight: 700;
-    border: none;
     border-radius: 20px;
     text-align: center;
+    margin-left: 5px;
 
 }
