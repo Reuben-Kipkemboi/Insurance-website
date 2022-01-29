@@ -5,6 +5,11 @@
 }
 header{
     width: 100%;
+    height: 100vh;
+    background-color: #252B42;
+    opacity: 1.1; 
+    background-image: url('./Images/header.png'); 
+    background-size: cover;
 }
 header>nav>ul{
     display: inline;
@@ -31,12 +36,12 @@ header>nav>ul>li>a{
     font-size: 15px;
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: white;
     display: block;
     justify-content: space-around;
 }
 header>nav>ul>.one>li>span{
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     margin-right: 50px;
@@ -47,7 +52,7 @@ header>nav>ul>.two>li>a{
     margin-top: -18px;
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: white;
     display: block;
 }
 #member{
