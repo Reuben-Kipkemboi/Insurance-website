@@ -130,7 +130,7 @@ header>.slogan>.btn>#more{
     font-weight: bold;    
 }
 .section-2{
-
+height: 300px;
 }
 .section-2>.menu{
     width: 200px;
@@ -148,5 +148,18 @@ header>.slogan>.btn>#more{
 .section-2>.menu>p{
     text-align: center;
     font-size: 11px;
+}
+.section-3{
+    background-color: #252B42;
+}
+.section-3>.head>h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    
+}
+.section-3>.head>p{
+    font-size: 14px;
+    text-align: center;
 }
 
