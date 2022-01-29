@@ -100,7 +100,7 @@ header>.slogan>.btn>#more{
 
 }
 .cards{
-    background-color: grey;
+    background-color: lightgray;
     width: 87.1%;
     height: 125px;
     padding-left: 150px;
@@ -151,7 +151,7 @@ height: 300px;
     font-size: 11px;
 }
 .section-3{
-    background-color: #252B42;
+    background-color: lightgray;
     height: 200vh;
 }
 .section-3>.head>h2{
@@ -199,5 +199,32 @@ height: 300px;
     width: 100px;
     margin-left: 60px;  
 }
+.news-letter{
+    height: 50px;
+    width: 850px;
+    margin-top: 50px;
+    margin-left: 180px;
+    background-color: #0D4388;
+    /* background-image: linear-gradient(to right, rgba(209, 78, 136), rgba(13, 67, 136);; */
+}
+.news-letter>span>span{
+    color: white;
+    padding-left: 30px;
+    font-weight:bold;
+    font-size: 15px;
+}
+.news-letter>span>.email{
+    float: right;
+    margin-top: -25px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+.news-letter>span>.email>.subscribe{
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
 
-
+ 
