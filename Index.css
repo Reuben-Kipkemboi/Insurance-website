@@ -4,7 +4,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 header{
-    width: 100%;
+    
     height: 100vh;
     background-color: #252B42;
     opacity: 1.1; 
@@ -100,6 +100,35 @@ header>.slogan>.btn>#more{
 }
 .cards{
     background-color: #252B42;
-    opacity: 0.2;
-    width: 100%;
+    width: 87.1%;
+    height: 150px;
+    padding-left: 150px;
+    
+}
+.cards>.one{
+    border: 2px solid white;
+    width: 250px;
+    height: 100px;
+    display: block;
+    float: left;
+    margin-top: -55px; 
+    text-align: center; 
+    background-color: white;
+    margin-left: 40px;
+    color: #252B42;
+    font-weight: bold;
+    
+}
+.cards>.two{
+    width: 250px;
+    height: 100px;
+    display: block;
+    float: left;
+    margin-top: -55px; 
+    text-align: center; 
+    background-color: #23A6F0;
+    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+    
 }
