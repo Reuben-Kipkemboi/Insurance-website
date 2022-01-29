@@ -152,7 +152,7 @@ height: 300px;
 }
 .section-3{
     background-color: lightgray;
-    height: 300vh;
+    height: 230vh;
 }
 .section-3>.head>h2{
     color: #252B42;
@@ -297,7 +297,29 @@ height: 300px;
     color: #252B42;
     font-size: 13px;
     text-align: center;
-
+}
+.branches{
+    background-color: #252B42;
+    height: 500px;
+}
+.branches>h2{
+    color: white;
+    font-size: bold;
+    font-size: 30px;
+    padding-left: 180px;
+    padding-top: 70px;
+}
+.branches>p{
+    float: left;
+    font-size: 10px;
+    color: white;
+    padding-left: 180px;
+}
+.branches>img{
+    width: 400px;
+    margin-top: -80px;
+    float: right;
+    margin-right: 140px;
 }
 
 
