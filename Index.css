@@ -34,6 +34,7 @@ header>nav>ul>.two>li{
 }
 header>nav>ul>li>a{
     font-size: 15px;
+    padding-left: 40px;
     text-decoration: none;
     list-style: none;
     color: white;
@@ -174,7 +175,6 @@ height: 300px;
     float: left;
     margin-left: 40px;
     background-color: white;
-    
 }
 .section-3>.users>.persons>img{
     width: 180px;
@@ -188,6 +188,16 @@ height: 300px;
 }
 .section-3>.users>.persons>.none{
     color: grey;
+}
+.section-3>.logos{
+    height: 100px;
+    margin-top: 380px;
+    margin-left: 120px;
+
+}
+ .section-3>.logos>.brands>img{ 
+    width: 100px;
+    margin-left: 60px;  
 }
 
 
