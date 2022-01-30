@@ -321,7 +321,109 @@ height: 300px;
     float: right;
     margin-right: 140px;
 }
+.form>img{
+    height: 500px;
+    margin-left: 260px;
+    margin-top: -200px;
+}
+.form>form{
+    float: right;
+    margin-right: 210px;
+    margin-top: -515px;
+    background-color: white;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+}
+.form>form>h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #252B42;
+}
+.form>form>submit{
+    background-color: #23A6F0; 
+    padding:5px 150px; text-align: center; 
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.consultation{
+    margin-top: 50px;
+}
+.consultation>h3{
+    color: #252B42;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 120px;
+}
+.consultation>span{
+    font-size: 15px;
+    margin-left: 120px;
+}
+.consultation>span>.contact{
+    padding: 10px 30px;
+    float: right;
+    margin-right: 300px;
+    margin-top: -25px;
+    background-color: #23A6F0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
 
-
-
+}
+footer{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+footer>.info{
+    width: 180px;
+    color: #252B42;
+    font-weight: bold;
+    float: left;
+}
+footer>.info>ul>li{
+    list-style: none;
+    font-size: 9px;
+}
+footer>.info>ul>li>a{
+    text-decoration: none;
+    color: #252B42;
+    list-style: none;
+}
+footer>.location{
+    width: 200px;
+    color: #252B42;
+    font-weight: bold;
+    float: left;
+}
+footer>.location>ul>li{
+    list-style: none;
+    font-size: 8px;
+}
+footer>.location>ul>li>a{
+    text-decoration: none;
+    color: #252B42;
+    list-style: none;
+}
+.copyright{
+    margin-top: 250px;
+    background-color: lightgray;
+    width: 1220px;
+    margin-left: -130px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+}
+.copyright>:first-child{
+    margin-left: 110px;
+}
+.copyright>.fb{
+    color: #23A6F0;
+    font-size: 25px;
+    float: right;
+    margin-right: 150px;
+    margin-top: -20px;
+}
  
