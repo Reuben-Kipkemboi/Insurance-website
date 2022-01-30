@@ -306,7 +306,7 @@ height: 300px;
     margin-top: 50px;
     margin-left: 180px;
     background-color: #0D4388;
-    /* background-image: linear-gradient(to right, rgba(209, 78, 136), rgba(13, 67, 136);; */
+    /* background-image: linear-gradient(to right, rgba(209, 78, 136), rgba(13, 67, 136);---linear gradient couldn't work */ 
 }
 .news-letter>span>span{
     color: white;
@@ -381,7 +381,16 @@ height: 300px;
     margin-top: 12px;
     margin-right: -180px;
 }
-.section-3>.items>.free{
+.section-3>.pricing>.items>.free{
+    padding: 10px 70px;
+    background-color: #23A6F0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+}
+.section-3>.pricing>.standard>.free{
     padding: 10px 70px;
     background-color: #23A6F0;
     color: white;
@@ -393,8 +402,15 @@ height: 300px;
 .section-3>.pricing>.items>.coloured{
     color: green;
 }
+.section-3>.pricing>.standard>.coloured{
+    color: green;
+}
 .section-3>.pricing>.items>span{
     color: #252B42;
+    font-size: 13px;
+    text-align: center;
+}
+.section-3>.pricing>.standard>span{
     font-size: 13px;
     text-align: center;
 }
@@ -426,7 +442,7 @@ height: 300px;
     margin-left: 260px;
     margin-top: -200px;
 }
-.form>form{
+.form>form {
     float: right;
     margin-right: 210px;
     margin-top: -515px;
@@ -440,13 +456,6 @@ height: 300px;
     font-size: 20px;
     font-weight: bold;
     color: #252B42;
-}
-.form>form>submit{
-    background-color: #23A6F0; 
-    padding:5px 150px; text-align: center; 
-    color: white;
-    font-weight: bold;
-    border: none;
 }
 .consultation{
     margin-top: 50px;
