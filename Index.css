@@ -3,6 +3,106 @@
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
 }
+@media only screen and (min-device-width : 320px){
+    header{
+        height: 100vh;
+        width: 100%;
+        background-color: #252B42; 
+        background-image: url('./Images/header.png'); 
+        /* background-position: center center; */
+        /* background-repeat: no-repeat; */
+        background-size:cover;       ;
+    }
+    header>nav>ul{
+        display: block;
+    }
+    header>nav>ul>.one{
+        display: block;
+    }
+   
+    
+    }
+    header>nav>ul>li{
+        display: block;
+        text-align: center;
+    }
+    header>nav>ul>.one>li{
+        display: inline-block;   
+    }
+   
+    }
+    header>nav>ul>li>a{
+        font-size: 15px;
+        padding-left: 40px;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        display: block;
+        justify-content: space-around;
+    }
+    header>nav>ul>.one>li>span{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+    header>nav>ul>.two>li>a{
+        font-size: 15px;
+        padding-left: 30px;
+        margin-top: -18px;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        display: block;
+    }
+    #member{
+        padding: 10px;
+        border: none;
+        background-color: #23A6F0;
+        color: white;
+        font-weight: bold;
+        border-radius: 3px 3px 3px 3px;
+    
+    }
+    header>.slogan>.motto{
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 100px;
+    }
+    header>.slogan>.small{
+        color: white;
+        text-align: center;
+    }
+    header>.slogan>.btn{
+        display: flex;
+        float: right;
+        padding-right: 520px;
+    }
+    header>.slogan>.btn>#quote{
+        color: white;
+        font-weight: 700;
+        background-color: #23A6F0;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    header>.slogan>.btn>#more{
+        background-color: #252B42;
+        color: white;
+        padding: 10px 15px;
+        font-weight: 700;
+        border-radius: 20px;
+        text-align: center;
+        margin-left: 5px;
+    
+    }
+
+        
+    }
+
+    }
 header{
     
     height: 100vh;
